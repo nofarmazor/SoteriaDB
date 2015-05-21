@@ -66,8 +66,6 @@ def get_sent_commands(start_time, end_time, device_zigbee_id):
     handle_ssl()
 
 
-
-
 def print_result(result):
     print "{0} results".format(len(result))
     print "     First result:"
